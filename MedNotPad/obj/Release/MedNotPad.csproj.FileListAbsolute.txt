@@ -1,0 +1,6 @@
+C:\Users\ICFC\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\bin\Release\MedNotPad.exe.config
+C:\Users\ICFC\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\bin\Release\MedNotPad.exe
+C:\Users\ICFC\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\obj\Release\MedNotPad.csprojResolveAssemblyReference.cache
+C:\Users\ICFC\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\obj\Release\MedNotPad.MainForm.resources
+C:\Users\ICFC\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\obj\Release\MedNotPad.csproj.GenerateResource.Cache
+C:\Users\ICFC\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\obj\Release\MedNotPad.exe

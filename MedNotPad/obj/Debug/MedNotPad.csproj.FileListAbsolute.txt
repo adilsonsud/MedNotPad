@@ -6,3 +6,11 @@ C:\Users\ICFC\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\obj\Debug\MedN
 C:\Users\ICFC\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\obj\Debug\MedNotPad.csproj.GenerateResource.Cache
 C:\Users\ICFC\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\obj\Debug\MedNotPad.exe
 C:\Users\ICFC\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\obj\Debug\MedNotPad.pdb
+E:\Users\Adilson\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\MedNotPad\bin\Debug\MedNotPad.exe.config
+E:\Users\Adilson\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\MedNotPad\bin\Debug\MedNotPad.exe
+E:\Users\Adilson\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\MedNotPad\bin\Debug\MedNotPad.pdb
+E:\Users\Adilson\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\MedNotPad\obj\Debug\MedNotPad.csprojResolveAssemblyReference.cache
+E:\Users\Adilson\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\MedNotPad\obj\Debug\MedNotPad.MainForm.resources
+E:\Users\Adilson\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\MedNotPad\obj\Debug\MedNotPad.csproj.GenerateResource.Cache
+E:\Users\Adilson\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\MedNotPad\obj\Debug\MedNotPad.exe
+E:\Users\Adilson\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\MedNotPad\obj\Debug\MedNotPad.pdb

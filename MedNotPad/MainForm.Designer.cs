@@ -65,6 +65,14 @@ namespace MedNotPad
 			this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripSeparator();
 			this.Salvar_TSMitem = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripSeparator();
+			this.chamadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.renachToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.adiçãoDeCreditoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.enviamentoDeAulaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.instalamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.desnativaçãoDeAulaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.protocoloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
 			this.Fechar_TSMitem = new System.Windows.Forms.ToolStripMenuItem();
 			this.contextMenuStrip1.SuspendLayout();
 			this.SuspendLayout();
@@ -79,6 +87,7 @@ namespace MedNotPad
 			this.richTextBox1.ForeColor = System.Drawing.Color.White;
 			this.richTextBox1.Location = new System.Drawing.Point(0, 0);
 			this.richTextBox1.Name = "richTextBox1";
+			this.richTextBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.richTextBox1.Size = new System.Drawing.Size(349, 465);
 			this.richTextBox1.TabIndex = 0;
 			this.richTextBox1.Text = "";
@@ -86,24 +95,28 @@ namespace MedNotPad
 			// contextMenuStrip1
 			// 
 			this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-			this.Tema_TSMitem,
-			this.Fonte_TSMitem,
-			this.Minimizar_TSMitem,
-			this.toolStripMenuItem4,
-			this.Salvar_TSMitem,
-			this.toolStripMenuItem5,
-			this.Fechar_TSMitem});
+									this.Tema_TSMitem,
+									this.Fonte_TSMitem,
+									this.Minimizar_TSMitem,
+									this.toolStripMenuItem4,
+									this.Salvar_TSMitem,
+									this.toolStripMenuItem5,
+									this.chamadoToolStripMenuItem,
+									this.protocoloToolStripMenuItem,
+									this.toolStripMenuItem1,
+									this.Fechar_TSMitem});
 			this.contextMenuStrip1.Name = "contextMenuStrip1";
-			this.contextMenuStrip1.Size = new System.Drawing.Size(128, 126);
+			this.contextMenuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+			this.contextMenuStrip1.Size = new System.Drawing.Size(128, 176);
 			// 
 			// Tema_TSMitem
 			// 
 			this.Tema_TSMitem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-			this.DarkTSMitem,
-			this.MediocreTSMitem,
-			this.TurboPascalTSMitem,
-			this.UbuntuTSMitem,
-			this.ZebeleTSMitem});
+									this.DarkTSMitem,
+									this.MediocreTSMitem,
+									this.TurboPascalTSMitem,
+									this.UbuntuTSMitem,
+									this.ZebeleTSMitem});
 			this.Tema_TSMitem.Name = "Tema_TSMitem";
 			this.Tema_TSMitem.Size = new System.Drawing.Size(127, 22);
 			this.Tema_TSMitem.Text = "Tema";
@@ -172,6 +185,60 @@ namespace MedNotPad
 			this.toolStripMenuItem5.Name = "toolStripMenuItem5";
 			this.toolStripMenuItem5.Size = new System.Drawing.Size(124, 6);
 			// 
+			// chamadoToolStripMenuItem
+			// 
+			this.chamadoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+									this.renachToolStripMenuItem,
+									this.adiçãoDeCreditoToolStripMenuItem,
+									this.enviamentoDeAulaToolStripMenuItem,
+									this.instalamentoToolStripMenuItem,
+									this.desnativaçãoDeAulaToolStripMenuItem});
+			this.chamadoToolStripMenuItem.Name = "chamadoToolStripMenuItem";
+			this.chamadoToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+			this.chamadoToolStripMenuItem.Text = "Chamado";
+			// 
+			// renachToolStripMenuItem
+			// 
+			this.renachToolStripMenuItem.Name = "renachToolStripMenuItem";
+			this.renachToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+			this.renachToolStripMenuItem.Text = "Corregimento de Renach";
+			// 
+			// adiçãoDeCreditoToolStripMenuItem
+			// 
+			this.adiçãoDeCreditoToolStripMenuItem.Name = "adiçãoDeCreditoToolStripMenuItem";
+			this.adiçãoDeCreditoToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+			this.adiçãoDeCreditoToolStripMenuItem.Text = "Colocamento de Credito";
+			// 
+			// enviamentoDeAulaToolStripMenuItem
+			// 
+			this.enviamentoDeAulaToolStripMenuItem.Name = "enviamentoDeAulaToolStripMenuItem";
+			this.enviamentoDeAulaToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+			this.enviamentoDeAulaToolStripMenuItem.Text = "Enviamento de Aula";
+			// 
+			// instalamentoToolStripMenuItem
+			// 
+			this.instalamentoToolStripMenuItem.Name = "instalamentoToolStripMenuItem";
+			this.instalamentoToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+			this.instalamentoToolStripMenuItem.Text = "Instalamento de Sistema";
+			// 
+			// desnativaçãoDeAulaToolStripMenuItem
+			// 
+			this.desnativaçãoDeAulaToolStripMenuItem.Name = "desnativaçãoDeAulaToolStripMenuItem";
+			this.desnativaçãoDeAulaToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+			this.desnativaçãoDeAulaToolStripMenuItem.Text = "Desnativação de Aula";
+			// 
+			// protocoloToolStripMenuItem
+			// 
+			this.protocoloToolStripMenuItem.Name = "protocoloToolStripMenuItem";
+			this.protocoloToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+			this.protocoloToolStripMenuItem.Text = "Protocolo";
+			this.protocoloToolStripMenuItem.Click += new System.EventHandler(this.ProtocoloToolStripMenuItemClick);
+			// 
+			// toolStripMenuItem1
+			// 
+			this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+			this.toolStripMenuItem1.Size = new System.Drawing.Size(124, 6);
+			// 
 			// Fechar_TSMitem
 			// 
 			this.Fechar_TSMitem.Name = "Fechar_TSMitem";
@@ -183,21 +250,29 @@ namespace MedNotPad
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.AutoSize = true;
 			this.ClientSize = new System.Drawing.Size(349, 465);
 			this.ContextMenuStrip = this.contextMenuStrip1;
-			this.ControlBox = false;
 			this.Controls.Add(this.richTextBox1);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-			this.IsMdiContainer = true;
-			this.MaximizeBox = false;
-			this.MinimizeBox = false;
+			this.KeyPreview = true;
 			this.Name = "MainForm";
+			this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+			this.RightToLeftLayout = true;
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "97%";
 			this.TopMost = true;
+			this.Load += new System.EventHandler(this.MainFormLoad);
 			this.contextMenuStrip1.ResumeLayout(false);
 			this.ResumeLayout(false);
-
 		}
+		private System.Windows.Forms.ToolStripMenuItem desnativaçãoDeAulaToolStripMenuItem;
+		private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
+		private System.Windows.Forms.ToolStripMenuItem protocoloToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem instalamentoToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem enviamentoDeAulaToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem adiçãoDeCreditoToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem renachToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem chamadoToolStripMenuItem;
 	}
 }

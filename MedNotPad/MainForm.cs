@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
+using Microsoft.VisualBasic;
 
 namespace MedNotPad
 {
@@ -18,6 +19,11 @@ namespace MedNotPad
 	/// </summary>
 	public partial class MainForm : Form
 	{
+		string usuario;
+		string Nprotocolo;
+		string protocolo;
+	
+		
 		public MainForm()
 		{
 			//
@@ -62,10 +68,42 @@ namespace MedNotPad
 		{
 			richTextBox1.BackColor = Color.FromArgb(40,40,40);
 			richTextBox1.ForeColor = Color.White;
+		}	
+	
+		
+		void MainFormLoad(object sender, EventArgs e)
+		{
+			
+		}
+		
+		
+		void ProtocoloToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Protocolo();
 		}
 		
 		
 		
-	
-	}
+		void Protocolo()
+		{
+			var data = String.Format("{0:d}", DateTime.Now);
+			
+			if(string.IsNullOrEmpty(usuario))
+			{
+				while(string.IsNullOrEmpty(usuario))
+				{
+				  usuario = Microsoft.VisualBasic.Interaction.InputBox("Digite seu nome para sair no protocolo", "ATENÇÃO SEU MEDIOCRE!","",50,50);
+				}	
+			}
+			while(string.IsNullOrEmpty(Nprotocolo))
+			{
+				Nprotocolo = Microsoft.VisualBasic.Interaction.InputBox("Digite o número de protocolo do GLPI para repassar para a CFC","PROTOCOLO GLPI","", 50,50);	
+			}			
+			
+			protocolo = ("Seu número de protocolo para este atendimento é: *"+Nprotocolo+"*" + "\n*Data:* " +data+ "\n*Técnico:* " + usuario);
+			richTextBox1.Text = protocolo;	
+			Nprotocolo = null;
+		}
+			
+  }
 }

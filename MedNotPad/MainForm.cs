@@ -101,7 +101,7 @@ namespace MedNotPad
 			}			
 			
 			protocolo = ("Seu número de protocolo para este atendimento é: *"+Nprotocolo+"*" + "\n*Data:* " +data+ "\n*Técnico:* " + usuario);
-			richTextBox1.Text = protocolo;	
+			Clipboard.SetText(protocolo);
 			Nprotocolo = null;
 		}
 			

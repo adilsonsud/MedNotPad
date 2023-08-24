@@ -14,3 +14,11 @@ E:\Users\Adilson\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\MedNotPad\o
 E:\Users\Adilson\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\MedNotPad\obj\Debug\MedNotPad.csproj.GenerateResource.Cache
 E:\Users\Adilson\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\MedNotPad\obj\Debug\MedNotPad.exe
 E:\Users\Adilson\Documents\SharpDevelop Projects\MedNotPad\MedNotPad\MedNotPad\obj\Debug\MedNotPad.pdb
+C:\Projetos\MedNotPad\MedNotPad\MedNotPad\bin\Debug\MedNotPad.exe.config
+C:\Projetos\MedNotPad\MedNotPad\MedNotPad\bin\Debug\MedNotPad.exe
+C:\Projetos\MedNotPad\MedNotPad\MedNotPad\bin\Debug\MedNotPad.pdb
+C:\Projetos\MedNotPad\MedNotPad\MedNotPad\obj\Debug\MedNotPad.csprojResolveAssemblyReference.cache
+C:\Projetos\MedNotPad\MedNotPad\MedNotPad\obj\Debug\MedNotPad.MainForm.resources
+C:\Projetos\MedNotPad\MedNotPad\MedNotPad\obj\Debug\MedNotPad.csproj.GenerateResource.Cache
+C:\Projetos\MedNotPad\MedNotPad\MedNotPad\obj\Debug\MedNotPad.exe
+C:\Projetos\MedNotPad\MedNotPad\MedNotPad\obj\Debug\MedNotPad.pdb
